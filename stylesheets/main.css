@@ -1,0 +1,88 @@
+.headerContainer {
+  position: relative;
+  color: black;
+}
+
+.login {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #6cbc35;
+  color: white;
+  padding: 45px;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.header {
+  position: absolute;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.textOverlay {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#navBar {
+  background-color: #134598;
+  color: white;
+  padding: 20px;
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #b4b4b4;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #b4b4b4;
+}
+
+#museumPic {
+    max-width: 100%;
+    height:auto;
+}
+
+#mainContent {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.bottomNavigation {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+}
+
+#footerContent {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
