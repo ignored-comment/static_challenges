@@ -40,19 +40,33 @@
   font-weight: bold;
 }
 
-#navBar {
+.navBar {
+  display: flex;
+  justify-content: flex-end;
   background-color: #134598;
   color: white;
   padding: 20px;
   text-align: right;
   font-family: Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: #b4b4b4;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #b4b4b4;
+}
+
+.building {
+  padding-right: 300px;
+}
+
+.art {
+  padding-right: 300px;
+}
+
+.featured {
+  padding-right: 100px;
 }
 
 #museumPic {
@@ -69,15 +83,54 @@
   font-size: 18px;
 }
 
-.bottomNavigation {
+#larimerSquarePicture {
+  max-width: 20%;
+}
+
+#milleniumBridgePicture {
+  max-width: 20%;
+}
+
+#mollyBrownHousePicture {
+  max-width: 20%;
+}
+
+.bottomNavigationContainer {
+  display: flex;
+  flex-direction: column
+  align-content: center;
   font-family: Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   background-color: white;
   color: black;
   padding-top: 20px;
+  padding: 20px;
 }
 
+.larimerSquare {
+  order : 1;
+}
+
+#larimerSquarePicture {
+  order: 2;
+}
+
+.milleniumBridge {
+  order: 3;
+}
+
+#milleniumBridgePicture {
+  order: 4;
+}
+
+.mollyBrownHouse {
+  order: 5;
+}
+
+#mollyBrownHousePicture {
+  order: 6;
+}
 #footerContent {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
